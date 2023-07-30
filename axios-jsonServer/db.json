@@ -1,0 +1,84 @@
+{
+  "todos": [
+    {
+      "id": 10230123,
+      "title": "Json server öğren",
+      "isDone": false,
+      "date": "6/1/2023"
+    },
+    {
+      "id": 1690742657292,
+      "title": "axios yeniz özellik",
+      "date": "2023-07-30T20:30:32.248Z",
+      "isDone": true
+    },
+    {
+      "id": 1690742751460,
+      "title": "selamlar",
+      "date": "2023-07-30T18:45:51.460Z",
+      "isDone": true
+    },
+    {
+      "id": 1690743775213,
+      "title": "yeni eleman123",
+      "date": "2023-07-30T20:36:03.080Z",
+      "isDone": true
+    },
+    {
+      "id": 1690750271331,
+      "title": "Deneme",
+      "date": "2023-07-30T20:51:11.331Z",
+      "isDone": false
+    },
+    {
+      "id": 1690750273973,
+      "title": "Test",
+      "date": "2023-07-30T20:51:13.973Z",
+      "isDone": false
+    },
+    {
+      "id": 1690750276802,
+      "title": "Öneri",
+      "date": "2023-07-30T20:51:16.802Z",
+      "isDone": false
+    },
+    {
+      "id": 1690750280866,
+      "title": "Json Server",
+      "date": "2023-07-30T20:51:20.866Z",
+      "isDone": false
+    },
+    {
+      "id": 1690750285658,
+      "title": "Axios özellik",
+      "date": "2023-07-30T20:51:25.658Z",
+      "isDone": false
+    },
+    {
+      "id": 1690751067075,
+      "title": "deneme",
+      "date": "2023-07-30T21:04:27.075Z",
+      "isDone": false
+    },
+    {
+      "id": 1690751081142,
+      "title": "test123",
+      "date": "2023-07-30T21:04:41.142Z",
+      "isDone": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Bilal"
+    },
+    {
+      "id": 2,
+      "name": "Ahmet"
+    },
+    {
+      "id": 3,
+      "name": "İnci"
+    }
+  ]
+}
