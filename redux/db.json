@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "id": "6cd8d5ea-d21b-41f8-a902-b1216ae50bd7",
+      "text": "selam",
+      "isDone": true,
+      "date": "2023-08-19T20:57:33.218Z"
+    },
+    {
+      "id": "c09a0325-beed-437f-b4ed-ff8ef0b0e604",
+      "text": "selamlar",
+      "isDone": false,
+      "date": "2023-08-19T20:57:41.467Z"
+    }
+  ]
+}
