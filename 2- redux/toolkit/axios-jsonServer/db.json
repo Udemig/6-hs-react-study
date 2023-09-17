@@ -40,7 +40,7 @@
       "id": 1690750276802,
       "title": "Öneri",
       "date": "2023-07-30T20:51:16.802Z",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 1690750280866,
@@ -58,12 +58,18 @@
       "id": 1690751067075,
       "title": "deneme",
       "date": "2023-07-30T21:04:27.075Z",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": 1690751081142,
       "title": "test123",
       "date": "2023-07-30T21:04:41.142Z",
+      "isDone": false
+    },
+    {
+      "id": 1693415931197,
+      "title": "asd",
+      "date": "2023-08-30T17:18:51.197Z",
       "isDone": false
     }
   ],
