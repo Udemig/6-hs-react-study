@@ -9,6 +9,7 @@ import {
 } from 'firebase/auth';
 
 import { getFirestore } from 'firebase/firestore';
+import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -34,3 +35,6 @@ export const githubProvider = new GithubAuthProvider();
 
 // veritabanı kurulum
 export const db = getFirestore(app);
+
+// medaya depolama laanı kurulumu
+export const storage = getStorage(app);

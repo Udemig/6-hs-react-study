@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 import TweetForm from './TweetForm';
-import { collection, doc, onSnapshot } from 'firebase/firestore';
+import {
+  collection,
+  doc,
+  onSnapshot,
+  query,
+  orderBy,
+} from 'firebase/firestore';
 import { db } from '../firebase/config';
 import Post from './Post';
 
@@ -9,8 +15,11 @@ const Main = () => {
   const tweetCol = collection(db, 'tweets');
 
   useEffect(() => {
+    // abone olduğumuz twwtleri filtreleme / sıralama
+    const queryOption = query(tweetCol, orderBy('createdAt', 'desc'));
+
     // kolleksiyondaki değişimi izler
-    onSnapshot(tweetCol, (snapshot) => {
+    onSnapshot(queryOption, (snapshot) => {
       // geçici olarak tweetleri tutuğumuz dizi
       const tempTweets = [];
 
@@ -25,7 +34,7 @@ const Main = () => {
   }, []);
 
   return (
-    <main className="col-span-3 md:col-span-2 xl:col-span-1  border border-gray-800">
+    <main className="main col-span-3 md:col-span-2 xl:col-span-1  border border-gray-800 overflow-y-auto">
       <header className="font-bold p-4 border-b-2 border-gray-800">
         Anasayfa
       </header>
@@ -37,7 +46,7 @@ const Main = () => {
       )}
 
       {/* tweetleri listeleme */}
-      {tweets.map((tweet) => (
+      {tweets?.map((tweet) => (
         <Post key={tweet.id} tweet={tweet} />
       ))}
     </main>
