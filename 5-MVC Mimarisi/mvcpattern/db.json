@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": "Mehmet",
+      "title": "React MVC Pattern(Mimari)",
+      "text": "MVC Mimari ile nasıl bileşenleri yöntirim??",
+      "date": "2023-09-11T19:13:21.364Z"
+    },
+    {
+      "id": 2,
+      "user": "Ali",
+      "title": "React MVVM Paterni",
+      "text": "Bu nedir???",
+      "date": "2023-09-11T19:13:21.364Z"
+    },
+    {
+      "id": "378a0574-a91e-417e-ae41-a301fe1234e0",
+      "date": "2023-09-11T19:13:21.364Z",
+      "title": "React123",
+      "text": "Bunu nasıl çözeriz???",
+      "user": "Ahmet"
+    },
+    {
+      "id": "ff867aec-1452-4ec5-bb37-75ccd6234fe4",
+      "date": "2023-09-11T19:59:57.523Z",
+      "title": "MVVM Nedir?",
+      "text": "Nası l oluyor\n",
+      "user": "Mehmet"
+    },
+    {
+      "id": "02db8f75-0321-4edb-af18-e5b0783acda6",
+      "date": "2023-09-11T20:00:15.908Z",
+      "title": "React ile proje ",
+      "text": "React ile proje  nasıl geliştirilir????",
+      "user": "Ali"
+    },
+    {
+      "id": "cdfcb6f3-c339-4d7b-926b-44193bbb2675",
+      "date": "2023-10-04T19:47:39.540Z",
+      "title": "qweqweqw",
+      "text": "eqweqweqweqwe",
+      "user": "qweqwewq"
+    },
+    {
+      "id": "4aceb58a-4b7c-4020-b49a-ce3d5387dddd",
+      "date": "2023-10-04T20:42:11.897Z",
+      "title": "birincisi",
+      "text": "birincsi",
+      "user": "Udemig"
+    },
+    {
+      "id": "d1ca789e-51ea-4979-99ad-eb4ddff5d4ff",
+      "date": "2023-10-04T20:42:27.169Z",
+      "title": "ikinicis",
+      "text": "ikinisici",
+      "user": "Udemig"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(88, 87, 87);
+  color: rgb(233, 233, 233);
+}
+
+//Header
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  a {
+    color: #dcbb02;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    &:hover {
+      text-shadow: 2px 2px 25px #dcbb02;
+    }
+  }
+
+  .active {
+    display: none;
+  }
+}
+
+//Post Listeleme Sayfası
+
+.container {
+  width: 70vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  .post {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.37);
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        color: #dcbb02;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+//Ekleme Sayfası
+
+form {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 70vw;
+  min-height: 70vh;
+  margin: 100px auto;
+  padding: 50px 20px;
+  border-radius: 10px;
+
+  h2 {
+    text-align: center;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: none;
+
+    input {
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+
+    textarea {
+      padding: 10px;
+      resize: vertical;
+      max-height: 200px;
+      min-height: 100px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+  }
+
+  button {
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-shadow: 2px 2px 10px black;
+    border: none;
+    outline: none;
+
+    &:hover {
+      scale: 0.9;
+    }
+  }
+}
+
+//PopUp 
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(128,128,128,0.4);
+    display: grid;
+    place-items: center;
+
+    .popup{
+        background-color: #fff;
+        height: 80%;
+        width: 70%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 10px;
+        border-radius: 10px;
+
+      .btn-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+
+        span{
+            color:gold
+        }
+
+        button{
+            background-color: crimson;
+            padding: 10px 20px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            color:white;
+            cursor: pointer;
+        }
+      }
+
+    }
+
+}
